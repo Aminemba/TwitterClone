@@ -4,7 +4,6 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails", "~> 5.2.4"
-gem 'sqlite3', '~> 1.4', '>= 1.4.2'
 gem "bcrypt"
 gem "bootsnap", require: false
 gem "bootstrap-sass"
@@ -12,7 +11,7 @@ gem "font-awesome-sass", "~> 4.3"
 gem "jquery-rails"
 gem "puma"
 gem "sass-rails"
-#gem 'sqlite3', '~> 1.4', '>= 1.4.2'
+gem 'sqlite3', '~> 1.4', '>= 1.4.2'
 gem "turbolinks"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "uglifier"
